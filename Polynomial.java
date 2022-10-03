@@ -33,9 +33,6 @@ public class Polynomial {
                 
                 String [] terms = data.split("\\+");
 
-                for (int i = 0; i<terms.length; i++){
-                    //System.out.println(terms[i]);
-                }
                 int arr_size = terms.length;
                 //System.out.println(arr_size);
                 double [] coeff = new double[arr_size-1];
