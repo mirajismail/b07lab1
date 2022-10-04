@@ -86,10 +86,6 @@ public class Polynomial {
 
     public void saveToFile(String name) {
         try {
-            File newFile = new File(name);
-            if (!(newFile.createNewFile())) {
-                System.out.println("File already exists.");
-            }
             String poly = "";
             for (int i = 0; i<this.powers.length; i++){
                 if (this.powers[i] == 0) {
